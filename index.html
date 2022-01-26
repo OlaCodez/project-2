@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN UP</title>
     <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
    <div class="container">
     <h1>Sign Up</h1>
-    <input type="button" value="Sign Up with Google">
+    <!-- <input type="button" value="Sign Up with Google"> -->
+    <button>
+        <div class="google">
+            <img src="images/google.png" alt="Google">
+            <p>Sign Up with Google</p>
+
+        </div>
+    </button>
    
     <br>
-    <hr>
     <div class="form">
-        <form action="">
+        <form action="#">
             <label>Name</label>
             <input type="Name" class="input-box" placeholder="Surname first">
             <label>Email</label>
             <input type="email" class="input-box" placeholder="example@gmai.com">
             <label>Password</label>
-            <input type="password" class="input-box" placeholder="at least 8 characters">
+            <div class="password">
+            <input type="password" class="input-box" placeholder="at least 8 characters ">
+            <img src="images/eye-icon-256.png" alt="eye">
+            </div>
         </form>
+        <br>
         <label><input type="checkbox" name="terms"> I agree with <a href="">Terms</a>and <a href=""> Privacy</a></label><br>
         <input type="button" value="Sign Up">
     </div>

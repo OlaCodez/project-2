@@ -7,20 +7,42 @@
 }
 
 body{
-    background-color: wheat;
+    background-color: rgb(219, 215, 207);
     overflow-y: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
     width: 360px;
-    height: 500px;
-    background-color: whitesmoke;
+    height: 100%;
+    background-color: white;
     border-radius: 10px;
     margin: auto;
     padding: 5px;
 }
 h1{
-    padding: 7px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+
+}
+
+.google img{
+    width: 15px;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    padding-left: 10px;
+}
+
+.form{
+    padding-left: 15px;
+    /* position: relative; */
+    relative
 }
 
 form{
@@ -43,21 +65,28 @@ form input{
     border: 1px solid limegreen;
 }
 
+form input:hover{
+    color: black;
+    background-color: rgb(230, 154, 54);
+}
+
 input[type="button"]{
     width: 300px;
     height: 30px;
     margin-top: 20px;
     font-size: 15px;
-    background-color: mediumblue;
+    background-color: rgb(88, 88, 223);
     border-radius: 19px;
     align-items: center;
+    border: none;
 }
 
 .login{
     text-align: center;
+    padding-top: 40px;
 }
 
-input[type="button-up"]{
+button{
     width: 300px;
     height: 30px;
     margin-bottom: 20px;
@@ -66,3 +95,22 @@ input[type="button-up"]{
     border-radius: 19px;
     align-items: center;
     text-align: center;
+    border: 1px solid rgb(238, 236, 234);
+    padding-left: 15px;
+}
+
+input[type="checkbox"]{
+    padding-left: 20px;
+}
+.password{
+    display: flex;
+    position: relative;    
+}
+
+.password img{
+    margin-left: -30px;
+    width: 9%;
+    height: 2%;
+    margin-top: 5px;
+    
+}
